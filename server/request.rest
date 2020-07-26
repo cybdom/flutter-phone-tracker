@@ -1,0 +1,28 @@
+GET http://localhost:3000/api/users
+###
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username" : "cybdoms",
+    "password" : "password"
+}
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "cybdom",
+    "password" : "password"
+}
+
+###
+POST http://localhost:3000/log
+
+Content-Type: application/json
+
+{
+    "latitude" : 32.49,
+    "longitude" : 19.02,
+    "timestamp" : 12388455
+}
